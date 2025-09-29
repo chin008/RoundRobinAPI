@@ -1,0 +1,136 @@
+2025-09-29 03:10:27,307 - INFO - Router running on port 8000
+2025-09-29 03:11:21,254 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:11:38,207 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:13:28,562 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:24:05,875 - INFO - [Router] Health check endpoint called
+2025-09-29 03:24:12,089 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:24:12,137 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:24:12,160 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:24:12,180 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:24:12,186 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:24:12,190 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:24:33,871 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:24:33,915 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:24:33,944 - ERROR - [ERROR] http://backend2:5002 failed (1): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:24:33,945 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:24:33,963 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:24:33,969 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:24:33,975 - ERROR - [ERROR] http://backend2:5002 failed (2): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:24:33,975 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:24:33,981 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:24:33,986 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:24:33,991 - ERROR - [ERROR] http://backend2:5002 failed (3): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:24:33,992 - WARNING - [HEALTH] Marking http://backend2:5002 as UNHEALTHY
+2025-09-29 03:24:33,992 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:24:38,087 - INFO - [HEALTH] http://backend2:5002 recovered
+2025-09-29 03:25:03,561 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:25:03,591 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:25:03,633 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:25:03,667 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:25:03,675 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:25:03,681 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:25:03,696 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:25:03,703 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:25:03,708 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:25:13,095 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:25:16,111 - ERROR - [ERROR] http://backend1:5001 failed (1): timed out
+2025-09-29 03:25:16,113 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:25:37,003 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:25:37,041 - ERROR - [ERROR] http://backend3:5003 failed (1): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:25:37,042 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:25:37,050 - ERROR - [ERROR] http://backend1:5001 failed (2): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:25:37,050 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:25:37,058 - ERROR - [ERROR] http://backend2:5002 failed (1): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:26:01,304 - INFO - [Router] Health check endpoint called
+2025-09-29 03:26:05,562 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:05,589 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:05,603 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:05,626 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:05,632 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:05,639 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:23,329 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:23,363 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:23,379 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:23,392 - ERROR - [ERROR] http://backend2:5002 failed (2): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:26:23,392 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:23,409 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:23,421 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:23,432 - ERROR - [ERROR] http://backend2:5002 failed (3): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:26:23,433 - WARNING - [HEALTH] Marking http://backend2:5002 as UNHEALTHY
+2025-09-29 03:26:23,433 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:23,439 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:28,195 - INFO - [HEALTH] http://backend2:5002 recovered
+2025-09-29 03:26:53,007 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:53,028 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:53,056 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:53,073 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:53,081 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:53,093 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:26:53,107 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:26:53,112 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:26:53,118 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:27:32,026 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:27:32,060 - ERROR - [ERROR] http://backend2:5002 failed (1): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:27:32,061 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:27:32,073 - ERROR - [ERROR] http://backend3:5003 failed (2): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:27:32,073 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:27:32,080 - ERROR - [ERROR] http://backend1:5001 failed (3): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:27:32,080 - WARNING - [HEALTH] Marking http://backend1:5001 as UNHEALTHY
+2025-09-29 03:27:33,311 - INFO - [HEALTH] http://backend1:5001 recovered
+2025-09-29 03:27:54,956 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:27:55,030 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:27:55,066 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:27:55,091 - ERROR - [ERROR] http://backend1:5001 failed (1): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:27:55,091 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:27:55,103 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:27:55,115 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:27:55,124 - ERROR - [ERROR] http://backend1:5001 failed (2): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:27:55,125 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:38:29,958 - INFO - [Router] Health check endpoint called
+2025-09-29 03:38:34,222 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:38:34,252 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:38:34,276 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:38:34,302 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:38:34,312 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:38:34,321 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:38:51,939 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:38:51,955 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:38:51,969 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:38:51,985 - ERROR - [ERROR] http://backend2:5002 failed (2): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:38:51,986 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:38:51,991 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:38:51,998 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:38:52,005 - ERROR - [ERROR] http://backend2:5002 failed (3): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:38:52,005 - WARNING - [HEALTH] Marking http://backend2:5002 as UNHEALTHY
+2025-09-29 03:38:52,006 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:38:52,012 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:38:54,146 - INFO - [HEALTH] http://backend2:5002 recovered
+2025-09-29 03:39:21,464 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:39:21,506 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:39:21,519 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:39:21,536 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:39:21,541 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:39:21,547 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:39:21,551 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:39:21,555 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:39:21,562 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:39:59,998 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:40:00,041 - ERROR - [ERROR] http://backend2:5002 failed (1): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:40:00,043 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:40:00,055 - ERROR - [ERROR] http://backend3:5003 failed (3): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:40:00,055 - WARNING - [HEALTH] Marking http://backend3:5003 as UNHEALTHY
+2025-09-29 03:40:00,055 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:40:00,063 - ERROR - [ERROR] http://backend1:5001 failed (3): <urlopen error [Errno -2] Name or service not known>
+2025-09-29 03:40:00,063 - WARNING - [HEALTH] Marking http://backend1:5001 as UNHEALTHY
+2025-09-29 03:40:04,214 - INFO - [HEALTH] http://backend1:5001 recovered
+2025-09-29 03:40:04,238 - INFO - [HEALTH] http://backend3:5003 recovered
+2025-09-29 03:40:12,288 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:40:12,324 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:40:12,342 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:40:15,349 - ERROR - [ERROR] http://backend1:5001 failed (1): timed out
+2025-09-29 03:40:15,352 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:40:15,379 - INFO - [Router] Forwarding request to http://backend3:5003
+2025-09-29 03:40:15,391 - INFO - [Router] Forwarding request to http://backend1:5001
+2025-09-29 03:40:18,398 - ERROR - [ERROR] http://backend1:5001 failed (2): timed out
+2025-09-29 03:40:18,404 - INFO - [Router] Forwarding request to http://backend2:5002
+2025-09-29 03:42:17,466 - INFO - [Router] Forwarding request to http://backend3:5003

@@ -91,7 +91,7 @@ def test_all_backends_down():
 def test_backend_slow(monkeypatch):
     """Simulate a slow backend and ensure router skips it."""
     # Stop backend1 temporarily and replace with a dummy slow response
-    subprocess.run(["docker", "stop", "backend1"])
+    subprocess.run(["docker", "pause", "backend1"])
     time.sleep(2)
 
     seen = set()

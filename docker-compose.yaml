@@ -3,9 +3,11 @@ services:
   backend1:
     build:
       context: .
-      dockerfile: docker/Dockerfile.backend
+      dockerfile: docker/Dockerfile.backend 
     container_name: backend1
     command: ["python", "app_api.py", "5001"]
+    volumes:
+      - ./logs:/logs
     ports:
       - "5001:5001"
 
@@ -15,6 +17,8 @@ services:
       dockerfile: docker/Dockerfile.backend
     container_name: backend2
     command: ["python", "app_api.py", "5002"]
+    volumes:
+      - ./logs:/logs
     ports:
       - "5002:5002"
 
@@ -24,6 +28,8 @@ services:
       dockerfile: docker/Dockerfile.backend
     container_name: backend3
     command: ["python", "app_api.py", "5003"]
+    volumes:
+      - ./logs:/logs
     ports:
       - "5003:5003"
 
@@ -34,6 +40,8 @@ services:
     container_name: router
     environment:
       - BACKENDS=http://backend1:5001,http://backend2:5002,http://backend3:5003
+    volumes:
+      - ./logs:/logs
     ports:
       - "8000:8000"
     depends_on:

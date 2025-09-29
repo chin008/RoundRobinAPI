@@ -1,0 +1,104 @@
+2025-09-29 03:10:26,898 - INFO - Backend running on port 5002
+2025-09-29 03:10:26,900 - INFO - Backend running on port 5003
+2025-09-29 03:10:26,906 - INFO - Backend running on port 5001
+2025-09-29 03:11:21,295 - INFO - [Backend 5001] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5001}
+2025-09-29 03:11:38,235 - INFO - [Backend 5002] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5002}
+2025-09-29 03:13:28,601 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}
+2025-09-29 03:24:12,122 - INFO - [Backend 5001] Received: {'msg': 'round robin', 'handled_by': 5001}
+2025-09-29 03:24:12,151 - INFO - [Backend 5002] Received: {'msg': 'round robin', 'handled_by': 5002}
+2025-09-29 03:24:12,174 - INFO - [Backend 5003] Received: {'msg': 'round robin', 'handled_by': 5003}
+2025-09-29 03:24:12,182 - INFO - [Backend 5001] Received: {'msg': 'round robin', 'handled_by': 5001}
+2025-09-29 03:24:12,187 - INFO - [Backend 5002] Received: {'msg': 'round robin', 'handled_by': 5002}
+2025-09-29 03:24:12,191 - INFO - [Backend 5003] Received: {'msg': 'round robin', 'handled_by': 5003}
+2025-09-29 03:24:33,899 - INFO - [Backend 5001] Received: {'msg': 'backend2 down', 'handled_by': 5001}
+2025-09-29 03:24:33,952 - INFO - [Backend 5003] Received: {'msg': 'backend2 down', 'handled_by': 5003}
+2025-09-29 03:24:33,964 - INFO - [Backend 5001] Received: {'msg': 'backend2 down', 'handled_by': 5001}
+2025-09-29 03:24:33,977 - INFO - [Backend 5003] Received: {'msg': 'backend2 down', 'handled_by': 5003}
+2025-09-29 03:24:33,982 - INFO - [Backend 5001] Received: {'msg': 'backend2 down', 'handled_by': 5001}
+2025-09-29 03:24:33,994 - INFO - [Backend 5003] Received: {'msg': 'backend2 down', 'handled_by': 5003}
+2025-09-29 03:24:34,484 - INFO - Backend running on port 5002
+2025-09-29 03:24:38,082 - INFO - [Backend 5002] Received: {'handled_by': 5002}
+2025-09-29 03:24:55,665 - INFO - Backend running on port 5003
+2025-09-29 03:25:03,575 - INFO - [Backend 5001] Received: {'msg': 'recovery', 'handled_by': 5001}
+2025-09-29 03:25:03,626 - INFO - [Backend 5002] Received: {'msg': 'recovery', 'handled_by': 5002}
+2025-09-29 03:25:03,655 - INFO - [Backend 5003] Received: {'msg': 'recovery', 'handled_by': 5003}
+2025-09-29 03:25:03,669 - INFO - [Backend 5001] Received: {'msg': 'recovery', 'handled_by': 5001}
+2025-09-29 03:25:03,677 - INFO - [Backend 5002] Received: {'msg': 'recovery', 'handled_by': 5002}
+2025-09-29 03:25:03,688 - INFO - [Backend 5003] Received: {'msg': 'recovery', 'handled_by': 5003}
+2025-09-29 03:25:03,698 - INFO - [Backend 5001] Received: {'msg': 'recovery', 'handled_by': 5001}
+2025-09-29 03:25:03,704 - INFO - [Backend 5002] Received: {'msg': 'recovery', 'handled_by': 5002}
+2025-09-29 03:25:03,709 - INFO - [Backend 5003] Received: {'msg': 'recovery', 'handled_by': 5003}
+2025-09-29 03:25:16,133 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:25:22,556 - INFO - [Backend 5001] Received: {'msg': 'slow test', 'handled_by': 5001}
+2025-09-29 03:25:37,660 - INFO - Backend running on port 5001
+2025-09-29 03:25:37,876 - INFO - Backend running on port 5002
+2025-09-29 03:25:38,137 - INFO - Backend running on port 5003
+2025-09-29 03:26:05,576 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:26:05,597 - INFO - [Backend 5001] Received: {'msg': 'test', 'handled_by': 5001}
+2025-09-29 03:26:05,619 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:26:05,628 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:26:05,635 - INFO - [Backend 5001] Received: {'msg': 'test', 'handled_by': 5001}
+2025-09-29 03:26:05,641 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:26:23,350 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:26:23,373 - INFO - [Backend 5001] Received: {'msg': 'failure simulation', 'handled_by': 5001}
+2025-09-29 03:26:23,403 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:26:23,412 - INFO - [Backend 5001] Received: {'msg': 'failure simulation', 'handled_by': 5001}
+2025-09-29 03:26:23,435 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:26:23,441 - INFO - [Backend 5001] Received: {'msg': 'failure simulation', 'handled_by': 5001}
+2025-09-29 03:26:23,898 - INFO - Backend running on port 5002
+2025-09-29 03:26:28,191 - INFO - [Backend 5002] Received: {'handled_by': 5002}
+2025-09-29 03:26:47,112 - INFO - Backend running on port 5003
+2025-09-29 03:26:53,017 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:26:53,043 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:26:53,063 - INFO - [Backend 5001] Received: {'msg': 'recovery test', 'handled_by': 5001}
+2025-09-29 03:26:53,075 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:26:53,083 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:26:53,100 - INFO - [Backend 5001] Received: {'msg': 'recovery test', 'handled_by': 5001}
+2025-09-29 03:26:53,108 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:26:53,114 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:26:53,120 - INFO - [Backend 5001] Received: {'msg': 'recovery test', 'handled_by': 5001}
+2025-09-29 03:27:32,573 - INFO - Backend running on port 5001
+2025-09-29 03:27:32,829 - INFO - Backend running on port 5002
+2025-09-29 03:27:33,052 - INFO - Backend running on port 5003
+2025-09-29 03:27:33,280 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:27:55,005 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:27:55,047 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:27:55,097 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:27:55,105 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:27:55,127 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:27:55,972 - INFO - Backend running on port 5001
+2025-09-29 03:38:34,245 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:38:34,268 - INFO - [Backend 5001] Received: {'msg': 'test', 'handled_by': 5001}
+2025-09-29 03:38:34,289 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:38:34,304 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:38:34,315 - INFO - [Backend 5001] Received: {'msg': 'test', 'handled_by': 5001}
+2025-09-29 03:38:34,322 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:38:51,948 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:38:51,963 - INFO - [Backend 5001] Received: {'msg': 'failure simulation', 'handled_by': 5001}
+2025-09-29 03:38:51,987 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:38:51,992 - INFO - [Backend 5001] Received: {'msg': 'failure simulation', 'handled_by': 5001}
+2025-09-29 03:38:52,008 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:38:52,015 - INFO - [Backend 5001] Received: {'msg': 'failure simulation', 'handled_by': 5001}
+2025-09-29 03:38:52,538 - INFO - Backend running on port 5002
+2025-09-29 03:38:54,132 - INFO - [Backend 5002] Received: {'handled_by': 5002}
+2025-09-29 03:39:15,584 - INFO - Backend running on port 5003
+2025-09-29 03:39:21,493 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:39:21,513 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:39:21,530 - INFO - [Backend 5001] Received: {'msg': 'recovery test', 'handled_by': 5001}
+2025-09-29 03:39:21,537 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:39:21,543 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:39:21,548 - INFO - [Backend 5001] Received: {'msg': 'recovery test', 'handled_by': 5001}
+2025-09-29 03:39:21,552 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:39:21,556 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:39:21,567 - INFO - [Backend 5001] Received: {'msg': 'recovery test', 'handled_by': 5001}
+2025-09-29 03:40:00,575 - INFO - Backend running on port 5001
+2025-09-29 03:40:00,767 - INFO - Backend running on port 5002
+2025-09-29 03:40:00,934 - INFO - Backend running on port 5003
+2025-09-29 03:40:04,208 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:40:04,228 - INFO - [Backend 5003] Received: {'handled_by': 5003}
+2025-09-29 03:40:12,305 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:40:12,337 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:40:15,363 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:40:15,384 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:40:18,412 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:42:17,490 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}
