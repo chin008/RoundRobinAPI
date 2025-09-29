@@ -40,6 +40,9 @@ Test Scenarios
 Normal Round Robin
 Requests rotate between 5001 → 5002 → 5003
 
+A public URL (e.g., https://xyz123.ngrok.io) to send requests externally.
+
+An inspect dashboard at 👉 http://127.0.0.1:4040/inspect/http where you can see all API traffic, requests, responses, headers, timing, and failures in real-time.
 
 Start Services
 docker-compose up --build
