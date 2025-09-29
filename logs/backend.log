@@ -102,3 +102,54 @@
 2025-09-29 03:40:15,384 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
 2025-09-29 03:40:18,412 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
 2025-09-29 03:42:17,490 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}
+2025-09-29 03:45:05,729 - INFO - [Backend 5002] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5002}
+2025-09-29 03:45:58,501 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}
+2025-09-29 03:46:04,830 - INFO - [Backend 5002] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5002}
+2025-09-29 03:46:06,873 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}
+2025-09-29 03:46:10,032 - INFO - [Backend 5002] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5002}
+2025-09-29 03:46:13,859 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}
+2025-09-29 03:47:53,058 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:47:53,080 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:47:53,088 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:47:53,097 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:47:53,103 - INFO - [Backend 5002] Received: {'msg': 'test', 'handled_by': 5002}
+2025-09-29 03:47:53,110 - INFO - [Backend 5003] Received: {'msg': 'test', 'handled_by': 5003}
+2025-09-29 03:48:10,972 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:48:10,992 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:48:10,999 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:48:11,011 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:48:11,018 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:48:11,023 - INFO - [Backend 5003] Received: {'msg': 'failure simulation', 'handled_by': 5003}
+2025-09-29 03:48:11,550 - INFO - Backend running on port 5002
+2025-09-29 03:48:14,415 - INFO - [Backend 5002] Received: {'handled_by': 5002}
+2025-09-29 03:48:34,598 - INFO - Backend running on port 5003
+2025-09-29 03:48:40,480 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:48:40,511 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:48:40,520 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:48:40,532 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:48:40,538 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:48:40,543 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:48:40,548 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:48:40,553 - INFO - [Backend 5003] Received: {'msg': 'recovery test', 'handled_by': 5003}
+2025-09-29 03:48:40,557 - INFO - [Backend 5002] Received: {'msg': 'recovery test', 'handled_by': 5002}
+2025-09-29 03:48:44,943 - INFO - [Backend 5001] Received: {'msg': 'slow test', 'handled_by': 5001}
+2025-09-29 03:48:44,982 - INFO - [Backend 5001] Received: {'msg': 'slow test', 'handled_by': 5001}
+2025-09-29 03:48:44,985 - INFO - [Backend 5001] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5001}
+2025-09-29 03:48:44,989 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:48:44,992 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:48:44,995 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:48:47,504 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:49:19,650 - INFO - Backend running on port 5001
+2025-09-29 03:49:19,820 - INFO - Backend running on port 5002
+2025-09-29 03:49:19,987 - INFO - Backend running on port 5003
+2025-09-29 03:49:31,329 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:49:34,368 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:49:34,383 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:49:37,411 - INFO - [Backend 5002] Received: {'msg': 'slow test', 'handled_by': 5002}
+2025-09-29 03:49:37,446 - INFO - [Backend 5003] Received: {'msg': 'slow test', 'handled_by': 5003}
+2025-09-29 03:49:37,547 - INFO - [Backend 5001] Received: {'msg': 'slow test', 'handled_by': 5001}
+2025-09-29 03:49:37,568 - INFO - [Backend 5001] Received: {'msg': 'slow test', 'handled_by': 5001}
+2025-09-29 03:49:37,571 - INFO - [Backend 5001] Received: {'handled_by': 5001}
+2025-09-29 03:50:04,235 - INFO - [Backend 5001] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5001}
+2025-09-29 03:50:07,431 - INFO - [Backend 5002] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5002}
+2025-09-29 03:50:09,560 - INFO - [Backend 5003] Received: {'game': 'Mobile Legends', 'gamerID': 'GYUTDTE', 'points': 20, 'handled_by': 5003}

@@ -103,5 +103,5 @@ def test_backend_slow(monkeypatch):
     assert 5001 not in seen  # router should skip backend1 if it’s unresponsive
 
     # Restart backend1
-    subprocess.run(["docker", "start", "backend1"])
+    subprocess.run(["docker", "unpause", "backend1"])
     time.sleep(5)
