@@ -1,0 +1,4 @@
+FROM python:3.10-slim
+WORKDIR /app
+COPY backend/app_api.py /app/
+CMD ["python", "app_api.py", "5001"]

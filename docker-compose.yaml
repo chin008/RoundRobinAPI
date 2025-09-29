@@ -1,0 +1,42 @@
+version: "3.8"
+services:
+  backend1:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: backend1
+    command: ["python", "app_api.py", "5001"]
+    ports:
+      - "5001:5001"
+
+  backend2:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: backend2
+    command: ["python", "app_api.py", "5002"]
+    ports:
+      - "5002:5002"
+
+  backend3:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: backend3
+    command: ["python", "app_api.py", "5003"]
+    ports:
+      - "5003:5003"
+
+  router:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.router
+    container_name: router
+    environment:
+      - BACKENDS=http://backend1:5001,http://backend2:5002,http://backend3:5003
+    ports:
+      - "8000:8000"
+    depends_on:
+      - backend1
+      - backend2
+      - backend3
